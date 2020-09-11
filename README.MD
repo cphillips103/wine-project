@@ -75,9 +75,13 @@ summary(wineQualityReds)
 Quick Summary Notes:
 
 There is a big range for sulfur.dioxide (both Free and Total) across the samples.
+
 The sample consists of 1599 Red Wine with 13 variables (the first being an index count).
+
 The alcohol content varies from 8.4 to 14.90 for the samples in data set.
+
 The quality of the samples range from 3 to 8 with 6 being the median, 5.636 the mean.
+
 The range for fixed acidity is quite high with minimum being 4.6 and maximum being 15.9,
 pH value varies from 2.74 to 4.010 with a median being 3.311.
 
