@@ -313,8 +313,13 @@ ggplot(aes(y = resid, x = round(alcohol, 2)), data = dat) +
 ```
 
 ![](w_images/14-residalcohol.png)
+
 ```
 ---
+
 ```
-Final analysis of the mini version of the model does show some capability of estimating wine quality given a narrow range of inputs. It would be interesting to test the predictability against a set of real world wine bottles and see if the model is worthy of predicting wine quality outcomes.
+Final analysis of the mini version of the model does show some capability of estimating
+wine quality given a narrow range of inputs. It would be interesting to test the predictability against a set of real world wine bottles and see if the model is worthy
+of predicting wine quality outcomes.
+
 ```
