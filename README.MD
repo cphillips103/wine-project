@@ -1,10 +1,11 @@
 #Final Project - Wine Quality Reds
-========================================================
+
 
 ### Welcome
 Exploration of the Wine data set focusing on Reds.
 
 ---
+
 ###Notes on wine production:
 
 The quality of grape vines and the soil play a huge part in wine quality. The "terroir," is how a region's climate and soils affect the taste of wine.
@@ -28,10 +29,11 @@ The timing and picking of the grapes greatly affects the quality of the wine.
 The taste and 'mouth-feel' sensations are due to the included compounds - ethanol, acids(malic, lactic, and tartaric), sugars, and glycerol.
 
 How a wine is stored can also impact its quality. Oak barrels impart various compounds and flavors to the wine, while stainless steel does not.
----
 
 ---
+
 ```Load libraries
+
 ```{r load needed libraries}
 library(dplyr)
 library(ggplot2)
@@ -48,6 +50,7 @@ library(RCurl)
 library(jtools)
 ```
 ---
+
 ---
 ```Load Wine Data Set
 ```{r Wine Quality Reds}
@@ -65,6 +68,7 @@ summary(wineQualityReds)
 
 ```
 ---
+
 ---
 ```
 
@@ -97,7 +101,7 @@ ggpairs(wineQualityReds,
 
 ```
 ---
-![](w_images/1-GGpairs.png)
+![](w_images/1-GGPairs.png)
 ---
 ---
 ```
@@ -145,7 +149,7 @@ plot4 <- qplot(data = wineQualityReds, x = total.sulfur.dioxide, binwidth = .1, 
 grid.arrange(plot1, plot2, plot3, plot4, ncol = 2)
 
 ```
-![](w_images/3-alchoholandphdist.png)
+![](w_images/3-Alchoholandphdist.png)
 
 ---
 Data set appears to present that there is a relatively even distribution of the major compnents in the data.
