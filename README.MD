@@ -1,12 +1,12 @@
-#Final Project - Wine Quality Reds
+Final Project - Wine Quality Reds
 
 
-### Welcome
+Welcome
 Exploration of the Wine data set focusing on Reds.
 
 ---
 
-###Notes on wine production:
+Notes on wine production:
 
 The quality of grape vines and the soil play a huge part in wine quality. The "terroir," is how a region's climate and soils affect the taste of wine.
 
@@ -104,9 +104,11 @@ ggpairs(wineQualityReds,
 
 
 ```
+
 ---
 ![](w_images/1-GGPairs.png)
 ---
+
 ---
 ```
 ```Relative to quality, there appears to be a positive association with alcohol, and a negative association with density, chlorides, and volatile acidity.
@@ -153,6 +155,8 @@ plot4 <- qplot(data = wineQualityReds, x = total.sulfur.dioxide, binwidth = .1, 
 grid.arrange(plot1, plot2, plot3, plot4, ncol = 2)
 
 ```
+---
+
 ![](w_images/3-Alchoholandphdist.png)
 
 ---
@@ -310,11 +314,11 @@ ggplot(aes(y = resid, x = round(alcohol, 2)), data = dat) +
 
 ```
 ---
-```
 
-![](w_images/14-residalcohol.png)
 
-```
+![](w_images/14-residalc.png)
+
+
 ---
 
 ```
